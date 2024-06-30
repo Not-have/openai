@@ -4,6 +4,4 @@
 
 [docs](https://openrouter.ai/)
 
-```bash
-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
-```
+[mock](https://simplylab.notion.site/React-web-app-5f1fbc54a6e24755a554b33adb8ad6e6)
