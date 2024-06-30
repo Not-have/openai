@@ -127,7 +127,9 @@ export default function Dialogue() {
               width: '100%',
               marginTop: '10px'
             }} />
-            <FormHelperText children={str ? '' : '不能为空'} />
+            <FormHelperText sx={{
+              color: '#d32f2f'
+            }} children={str ? '' : '不能为空'} />
           </FormControl>
           <div className='footer'>
             <Button onClick={handleSubmitClick}>确认</Button>
