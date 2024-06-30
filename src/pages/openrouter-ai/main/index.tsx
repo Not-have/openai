@@ -121,7 +121,7 @@ export default function Dialogue() {
       >
         <ModalContent>
           <FormControl error defaultValue="" required>
-            <p>请输入 key</p>
+            <p>Key</p>
 
             <_Input placeholder="Write your key here" onChange={(e) => setStr(e.target.value)} sx={{
               width: '100%',
@@ -129,11 +129,11 @@ export default function Dialogue() {
             }} />
             <FormHelperText sx={{
               color: '#d32f2f'
-            }} children={str ? '' : '不能为空'} />
+            }} children={str ? '' : 'Cannot be empty!'} />
           </FormControl>
           <div className='footer'>
-            <Button onClick={handleSubmitClick}>确认</Button>
-            <Button color={'error'} onClick={handleClose}>取消</Button>
+            <Button onClick={handleSubmitClick}>Ok</Button>
+            <Button color={'error'} onClick={handleClose}>Close</Button>
           </div>
         </ModalContent>
       </Modal>
